@@ -1,0 +1,2 @@
+log.tag=[PLAYER]
+log.maxLength=100
