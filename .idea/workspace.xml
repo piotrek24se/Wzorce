@@ -2,39 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c446dc65-5356-46d3-b8d2-3f69afbc0ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/HouseMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/SicilianFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/TorinoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/ConfigHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/ConfigHelperSingletonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/SimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/SingletonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/CountryCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/PLTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/TaxManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/TaxStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/USATax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MoneyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/CardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/DebitCardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/PaybackCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/PaybackCardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/ClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/ObserverMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/OnClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/AbstractDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/RectangleDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/SquareDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/templateMethodMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Builder/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Builder/HouseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/HouseMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/FactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/Pasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/SicilianFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/SicilianFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/TorinoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/TorinoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prototype/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prototype/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/ConfigHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/ConfigHelperSingletonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/ConfigHelperSingletonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/SimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/SimpleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/SingletonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy/CountryCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/CountryCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy/PLTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/PLTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy/TaxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/TaxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy/TaxStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/TaxStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy/USATax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/USATax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoneyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,82 +61,35 @@
     <session id="1762607678">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3089" />
+          <entry key="JAVA" value="4587" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/TaxStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/PLTax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/USATax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/TaxManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#109#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/CountryCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -133,13 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Money.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MoneyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Currency.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConfigHepler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SimpleSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConfigHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/SingletonMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConfigHelperSingletonMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
@@ -171,10 +130,26 @@
         <option value="$PROJECT_DIR$/src/main/java/Prototype/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/Prototype/CarMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/TaxStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Strategy/PLTax.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/USATax.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/CountryCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/TaxManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/PLTax.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/TaxCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/StrategyMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/TaxCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/OnClickListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/ClickListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/Button.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/ObserverMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/templateMethod/RectangleDraw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/templateMethod/SquareDraw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/templateMethod/AbstractDraw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/templateMethod/templateMethodMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/PaybackCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/DebitCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/DebitCardAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/PaybackCardAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/CardAdapter.java" />
       </list>
     </option>
   </component>
@@ -186,15 +161,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,25 +199,16 @@
             </path>
             <path>
               <item name="wzorce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wzorce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wzorce" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543674199199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543749631090" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -265,10 +232,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigHelperSingletonMain">
+  <component name="RunManager" selected="Application.templateMethodMain">
     <configuration name="ConfigHelperSingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.ConfigHelperSingletonMain" />
+      <option name="MAIN_CLASS_NAME" value="singleton.ConfigHelperSingletonMain" />
       <module name="Wzorce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.ObserverMain" />
+      <module name="Wzorce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.StrategyMain" />
+      <module name="Wzorce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templateMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="templateMethod.templateMethodMain" />
+      <module name="Wzorce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,50 +287,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wzorce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyTest.testGetAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wzorce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testGetAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wzorce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MoneyTest.testGetAmount" />
       <item itemvalue="JUnit.MoneyTest" />
-      <item itemvalue="JUnit.MoneyTest.testToString" />
-      <item itemvalue="JUnit.MoneyTest.testEquals" />
       <item itemvalue="Application.ConfigHelperSingletonMain" />
+      <item itemvalue="Application.StrategyMain" />
+      <item itemvalue="Application.ObserverMain" />
+      <item itemvalue="Application.templateMethodMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.templateMethodMain" />
+        <item itemvalue="Application.ObserverMain" />
+        <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.ConfigHelperSingletonMain" />
         <item itemvalue="JUnit.MoneyTest" />
-        <item itemvalue="JUnit.MoneyTest.testEquals" />
-        <item itemvalue="JUnit.MoneyTest.testToString" />
-        <item itemvalue="JUnit.MoneyTest.testGetAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -375,34 +351,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -434,14 +409,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/FactoryMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/FactoryMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/SingletonMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/SingletonMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -452,21 +427,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/ConfigHelperSingletonMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ConfigHelperSingletonMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/ConfigHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ConfigHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -476,42 +451,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/SimpleSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/SimpleSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/Money.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/Currency.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/SimpleFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/SimpleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pasta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/Pasta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -521,7 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -531,7 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/Pizza3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pizza/Pizza3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -541,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -552,21 +527,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pasta/Pasta2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/pasta/Pasta2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -576,14 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/TorinoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/SicilianFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/pizza/TorinoFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/SicilianFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
@@ -593,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/TorinoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/TorinoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
@@ -603,75 +572,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/pizzapasta/Pizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/pizzapasta/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HouseMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder/HouseMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/House.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder/House.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Prototype/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prototype/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Prototype/CarMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prototype/CarMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/TaxStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TaxStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/PLTax.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/USATax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/USATax.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/CountryCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TaxManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/PLTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TaxCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/OnClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/ClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/ObserverMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templateMethod/AbstractDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templateMethod/RectangleDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templateMethod/SquareDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templateMethod/templateMethodMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/CardAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/CountryCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/DebitCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/TaxManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/PaybackCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/DebitCardAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/PaybackCardAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
           </folding>
         </state>
       </provider>

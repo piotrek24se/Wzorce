@@ -1,5 +1,5 @@
-import Singleton.Currency;
-import Singleton.Money;
+import singleton.Currency;
+import singleton.Money;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -52,19 +52,19 @@ class MoneyTest {
 //    @Test
 //    public void shouldReturn10AndPLN() {
 //        //given
-//        Singleton.Money money = new Singleton.Money(10, Singleton.Money.Singleton.Currency.PLN);
+//        singleton.Money money = new singleton.Money(10, singleton.Money.singleton.Currency.PLN);
 //        //when
 //        float amount = money.getAmount();
-//        Singleton.Money.Singleton.Currency currency = money.getCurrency();
+//        singleton.Money.singleton.Currency currency = money.getCurrency();
 //        //then
 //        assertEquals(10, amount);
-//        assertEquals(Singleton.Money.Singleton.Currency.PLN, currency);
+//        assertEquals(singleton.Money.singleton.Currency.PLN, currency);
 //    }
 //
 //    @Test
 //    public void shoulfReturnPLN556IfAmountIs10AndCurrencyIsPLN() {
 //        //given
-//        Singleton.Money money1 = new Singleton.Money(5.56f, Singleton.Money.Singleton.Currency.PLN);
+//        singleton.Money money1 = new singleton.Money(5.56f, singleton.Money.singleton.Currency.PLN);
 //        //when
 //        String string = money1.toString();
 //        //then
