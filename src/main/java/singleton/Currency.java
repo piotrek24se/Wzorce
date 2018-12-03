@@ -2,18 +2,18 @@ package singleton;
 
 public enum Currency {
 
-    PLN, EUR, USD
-
-    //modyfikacja enuma (zad. 6)
-
-//    PLN(5f), EUR(4f), USD(3f);
+//    PLN, EUR, USD
 //
-//    float toUsd;
+//    modyfikacja enuma (zad. 6)
 //
-//    singleton.Currency(float toUsd) {
-//        this.toUsd = toUsd;
-//    }
-//    void printToUsd() {
-//        System.out.println(toUsd);
-//    }
+    PLN(5f), EUR(4f), USD(3f);
+
+    float toUsd;
+
+    Currency(float toUsd) {
+        this.toUsd = toUsd;
+    }
+    void printToUsd() {
+        System.out.println(toUsd);
+    }
 }

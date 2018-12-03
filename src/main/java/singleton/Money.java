@@ -7,13 +7,13 @@ public class Money {
     //moje rozwiazanie
 
 //    private float amount;
-//    private singleton.Currency currency;
+//    private Currency currency;
 //
-//    public enum singleton.Currency {
+//    public enum Currency {
 //        EUR, DOL, PLN
 //    }
 //
-//    public singleton.Money(float amount, singleton.Currency currency) {
+//    public Money(float amount, Currency currency) {
 //        this.amount = amount;
 //        this.currency = currency;
 //    }
@@ -22,7 +22,7 @@ public class Money {
 //        return amount;
 //    }
 //
-//    public singleton.Currency getCurrency() {
+//    public Currency getCurrency() {
 //        return currency;
 //    }
 //
@@ -34,8 +34,8 @@ public class Money {
 //    //metoda equals do sprawdzenia (moze byc zle napisana)
 //    @Override
 //    public boolean equals(Object o) {
-//        if (!(o instanceof singleton.Money)) return false;
-//        else if (this.getAmount() == ((singleton.Money) o).getAmount() && this.getCurrency() == ((singleton.Money) o).getCurrency())
+//        if (!(o instanceof Money)) return false;
+//        else if (this.getAmount() == ((Money) o).getAmount() && this.getCurrency() == ((Money) o).getCurrency())
 //            return true;
 //        else return false;
 //    }

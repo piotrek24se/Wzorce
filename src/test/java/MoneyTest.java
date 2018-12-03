@@ -52,19 +52,19 @@ class MoneyTest {
 //    @Test
 //    public void shouldReturn10AndPLN() {
 //        //given
-//        singleton.Money money = new singleton.Money(10, singleton.Money.singleton.Currency.PLN);
+//        Money money = new Money(10, Currency.PLN);
 //        //when
 //        float amount = money.getAmount();
-//        singleton.Money.singleton.Currency currency = money.getCurrency();
+//        Currency currency = money.getCurrency();
 //        //then
 //        assertEquals(10, amount);
-//        assertEquals(singleton.Money.singleton.Currency.PLN, currency);
+//        assertEquals(Currency.PLN, currency);
 //    }
 //
 //    @Test
 //    public void shoulfReturnPLN556IfAmountIs10AndCurrencyIsPLN() {
 //        //given
-//        singleton.Money money1 = new singleton.Money(5.56f, singleton.Money.singleton.Currency.PLN);
+//        Money money1 = new Money(5.56f, Currency.PLN);
 //        //when
 //        String string = money1.toString();
 //        //then
