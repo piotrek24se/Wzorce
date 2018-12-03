@@ -22,13 +22,13 @@ class MoneyTest {
 
     @Test
     void testGetAmount() {
-        Money money = new Money(TEST_AMOUNT, Currency.PLN);
+//        Money money = new Money(TEST_AMOUNT, Currency.PLN);
         assertEquals(TEST_AMOUNT, money.getAmount());
     }
 
     @Test
     void testGetCurrency() {
-        Money money = new Money(TEST_AMOUNT, Currency.PLN);
+//        Money money = new Money(TEST_AMOUNT, Currency.PLN);
         assertEquals(Currency.PLN, money.getCurrency());
     }
 
