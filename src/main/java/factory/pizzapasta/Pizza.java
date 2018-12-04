@@ -8,5 +8,3 @@ public interface Pizza {
     List<String> getIngredients();
 
 }
-
-//uzupelnic podpunkty od f wlacznie

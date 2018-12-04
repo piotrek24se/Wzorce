@@ -2,13 +2,13 @@ package factory;
 
 public class SimpleFactory {
 
-    //uzupelnic git
-
     public static void main(String[] args) {
-
+        System.out.println(ButterFactory.createBioButter(72, 250));
+        System.out.println(ButterFactory.createNotBioButter(72, 250));
     }
 
     static class ButterFactory {
+
         static Butter createBioButter(int fat, int weight) {
             return new Butter(fat, true, weight);
         }
@@ -17,6 +17,7 @@ public class SimpleFactory {
             return new Butter(fat, false, weight);
         }
     }
+
 
     static class Butter {
         int fat;
@@ -33,12 +34,24 @@ public class SimpleFactory {
             return fat;
         }
 
+        public void setFat(int fat) {
+            this.fat = fat;
+        }
+
         public boolean isBio() {
             return bio;
         }
 
+        public void setBio(boolean bio) {
+            this.bio = bio;
+        }
+
         public int getWeight() {
             return weight;
+        }
+
+        public void setWeight(int weight) {
+            this.weight = weight;
         }
 
         @Override
