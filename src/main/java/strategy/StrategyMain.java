@@ -13,6 +13,9 @@ public class StrategyMain {
         System.out.println("PL: " + TaxCalculator.PL.calculate(income));
 
     }
-    // uzupelnic jedna metode z git
+
+    private float calculate(TaxCalculator taxCalculator, float income) {
+        return taxCalculator.calculate(income);
+    }
 
 }

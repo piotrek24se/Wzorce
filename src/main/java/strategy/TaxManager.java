@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class TaxManager {
 
-    //niedokonczony caly pakiet
+    //niedokonczone moje rozwiazanie
 
 //    static TaxStrategy getStrategy(CountryCode countryCode) {
 //        if (countryCode == CountryCode.PL) {

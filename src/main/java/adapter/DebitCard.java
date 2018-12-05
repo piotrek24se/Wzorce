@@ -2,9 +2,9 @@ package adapter;
 
 public class DebitCard {
 
-    private static final int AVAILABLE = 1000;
+    private static final float AVAILABLE = 1000;
 
-    public boolean takeMoney(Float amount) {
+    public boolean takeMoney(float amount) {
         return amount <= AVAILABLE;
     }
 

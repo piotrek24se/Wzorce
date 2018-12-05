@@ -4,12 +4,12 @@ public class DebitCardAdapter implements CardAdapter {
 
     private DebitCard debitCard;
 
-    public DebitCardAdapter(DebitCard debitCard) {
+    public DebitCardAdapter() {
         this.debitCard = new DebitCard();
     }
 
     @Override
-    public boolean take(Float amount) {
+    public boolean take(float amount) {
         return debitCard.takeMoney(amount);
     }
 }
